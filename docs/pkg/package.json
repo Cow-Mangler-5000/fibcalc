@@ -1,0 +1,15 @@
+{
+  "name": "fibcalc",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "fibcalc_bg.wasm",
+    "fibcalc.js",
+    "fibcalc.d.ts"
+  ],
+  "main": "fibcalc.js",
+  "types": "fibcalc.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
