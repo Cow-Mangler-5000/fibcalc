@@ -7,7 +7,7 @@ const result = document.getElementById("result")
 init().then(() => {
     calculate.addEventListener("click", async () => {
         let x = input.value
-        let y = Number(x)
+        let y = BigInt(x)
         result.textContent = fibonacci(y);
     })
 })
